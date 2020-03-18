@@ -12,6 +12,7 @@ public class Fibonacci
 		int second=1;
 		System.out.println(first+" "+second);
 		try (Scanner s = new Scanner(System.in)) {
+			//you can just give count="any integer value upto which u want ur series" rather than scanning
 			int n=s.nextInt();
 			for(int i=2;i<n;i++)
 			{
