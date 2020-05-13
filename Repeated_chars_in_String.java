@@ -1,0 +1,35 @@
+package java_Interview_Ques;
+import java.util.HashMap;
+import java.util.Set;
+public class Repeated_chars_in_String {
+
+	public void countduplicates(String str)
+	{
+		HashMap<Character,Integer> map=new HashMap<Character,Integer>();
+		char chars[]=str.toCharArray();
+		for(Character ch:chars)
+		{
+			if(map.containsKey(ch))
+			{
+				map.put(ch,map.get(ch)+1);
+			}
+			else
+				map.put(ch,1);
+	}
+	Set<Character>keys=map.keySet();
+	for(Character ch:keys)
+	{
+		if(map.get(ch)>1);
+		{
+			System.out.println("Char "+ch+" "+map.get(ch));
+		}
+	}
+	}
+	public static void main(String[] args) 
+	{
+		Repeated_chars_in_String obj=new Repeated_chars_in_String();
+		obj.countduplicates("Thiswhatwriitenisnotwritetext");
+
+	}
+
+}
