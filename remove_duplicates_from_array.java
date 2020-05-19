@@ -1,8 +1,6 @@
 package java_Interview_Ques;
-import java.util.Scanner;
 public class remove_duplicates_from_array 
 {
-
 	public static int removeDuplicate(int arr[],int n)
 	{
 		if(n==0 || n==1)
