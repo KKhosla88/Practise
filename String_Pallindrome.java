@@ -1,5 +1,5 @@
 package java_Interview_Ques;
-import java.util.*;
+import java.util.Scanner;
 
 public class String_Pallindrome {
 
