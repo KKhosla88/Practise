@@ -20,3 +20,4 @@ public class Reverse_number {
 	}
 
 }
+//Not just to reverse number anytime u need to reverse number or word or break it into singulars we can use this method
